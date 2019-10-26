@@ -6,7 +6,7 @@ from read20perFold import read20perFold
 from readFold import readFold
 from randn2 import *
 
-arr = load("C:/Users/italo/Documents/pibic/Material Italo - v1/colecao/5132_loose_wss-wiki2014_vfinal.npz")
+arr = load("../colecao/5132_loose_wss-wiki2014_vfinal.npz")
 #print(arr.files)
 dbin = arr['Dbin']
 Z = arr['Z'].astype('int')
