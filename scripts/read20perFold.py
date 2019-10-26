@@ -10,7 +10,7 @@ def randSample(arr, perms):
 
 def read20perFold(idFold, typeSet, perc):
 
-    filename = "C:/Users/italo/Documents/pibic/Material Italo - v1/colecao/codes-to-create-school-wiki2014/virtual_folds/fixed/" + typeSet + '_' + str(idFold) + '.txt'
+    filename = "../colecao/codes-to-create-school-wiki2014/virtual_folds/fixed/" + typeSet + '_' + str(idFold) + '.txt'
     fileId = open(filename, 'r')
     In = loadtxt(fileId, delimiter=" ", dtype='int')
     fileId.close()
